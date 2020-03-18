@@ -1,0 +1,36 @@
+  QUESTION:-       
+You bought the following items to start your Company and plan to inaugurate the portal .
+a)      Rented a space to use it as office and keep your servers
+b)      2 Red Hat Linux Enterprise server. With plenty of memory and stoage space
+c)      2 live IP address
+d)     32Mbps internet connection from reliance
+e)      A domain name as netcamp.in
+
+After a group meeting you decided to do the following and get it going.
+1  Create one web server which will host all the web sites for the Company (netcamp.in)
+2  Create one DNS server .
+3  Create one mailing server (web and mail server is same server) which will provide the email service for the Institution / 
+   Company (mail.netcamp.in – and should be able to access from web). Mail server should have POP3 support so user can
+   download email in their own laptop/desktop. (Please customize the mail page with your own company logo and company 
+   name)
+4  The mail server will be the file server which will have file storage space for the user.
+5  File server will also have a dhcp server (range of ips =192.168.1.150 to 192.168.1.190 gateway=192.168.1.1 and dns server =
+   give your dns server) so that it can give ip address to all client machines.
+
+You were 4/5 in your group you decided that  you will be the Chairman of the company and will have access to all the 
+files / folders in your company. You created three departments – Sales, RandD and Accounts. Please divide the group
+ members in all these groups. For the file management you decided about the following points.
+ Email address
+username@company.in
+company.in (should also open as www.comapny.in)
+sales.company.in
+research.company.in
+accounts.company.in
+mail.company.in
+Common data folder for user (only departmental access – only the department people can read and write on the same)
+/departmentname/data
+Common driver folder for the user (only departmental access – only access (r-x)  but they can’t write on the same)
+/departmentname/driver
+Please make a note, chairman will have full access on these folder called data and driver;
+Please design and implement the same.
+Please note Reliance will give the public ip address only after a week so, all job has to be done with private ip address only.
